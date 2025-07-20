@@ -1,0 +1,14 @@
+/* src/index.css */
+
+/* This imports the Google Font we specified in the theme. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* These are the required Tailwind directives. */
+@tailwindcss base;
+@tailwindcss components;
+@tailwindcss utilities;
+
+/* 
+  You can add any extra custom base styles here inside a @layer directive.
+  This is good practice to avoid specificity issues.
+*/
